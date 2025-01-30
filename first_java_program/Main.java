@@ -54,7 +54,13 @@ package dsa_java.first_java_program;
 
 public class Main{
     public static void main(String[] args) {
-        int rollno = 3;
+        int rollno = 3;// default is int
+        char letter = 'e';
+        float marks = 89.6f;// so f is used to make it store in float
+        double largeDecimalNumbers = 33325345.43; // by default all the values are in double
+        long largeNumber = 345345435345L;
+        boolean check = false;
+
 
     }
 }
